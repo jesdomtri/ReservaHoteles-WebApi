@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Presentation</name>
+    </assembly>
+    <members>
+        <member name="M:Presentation.Controllers.HotelController.GetAllHoteles">
+            <summary>
+            Muestra todos los hoteles
+            </summary>
+            <returns>Devuelve todos los hoteles</returns>
+        </member>
+        <member name="M:Presentation.Controllers.HotelController.GetHotel(System.Int32)">
+            <summary>
+            Muestra un hotel mediante su ID
+            </summary>
+            <param name="id">Identificador del hotel</param>
+            <returns>Devuelve un hotel mediante su ID</returns>
+        </member>
+        <member name="M:Presentation.Controllers.HotelController.PostHotel(Domain.Models.Hotel)">
+            <summary>
+            Anyade un hotel leyendo todos los campos del Body
+            </summary>
+            <param name="hotel">Body del hotel</param>
+            <returns>Crea un hotel</returns>
+        </member>
+        <member name="M:Presentation.Controllers.HotelController.PutHotel(Domain.Models.Hotel)">
+            <summary>
+            Actualiza un hotel leyendo todos los campos del Body
+            </summary>
+            <param name="hotel">Body del hotel</param>
+            <returns>Actualiza un hotel</returns>
+        </member>
+        <member name="M:Presentation.Controllers.HotelController.DeleteHotel(System.Int32)">
+            <summary>
+            Elimina un hotel mediante su ID
+            </summary>
+            <param name="id">Identificador del hotel</param>
+            <returns>Elimina un hotel</returns>
+        </member>
+        <member name="M:Presentation.Controllers.ReservaController.GetAllReservas">
+            <summary>
+            Muestra todas las reservas
+            </summary>
+            <returns>Devuelve todas las reservas</returns>
+        </member>
+        <member name="M:Presentation.Controllers.ReservaController.GetReserva(System.Int32)">
+            <summary>
+            Muestra una reserva mediante su ID
+            </summary>
+            <param name="id">Identificador de la reserva</param>
+            <returns>Devuelve una reserva</returns>
+        </member>
+        <member name="M:Presentation.Controllers.ReservaController.PostReserva(Domain.Models.Reserva)">
+            <summary>
+            Anyade una reserva leyendo todos los campos del Body
+            </summary>
+            <param name="reserva">Body de la reserva</param>
+            <returns>Crea una reserva</returns>
+        </member>
+        <member name="M:Presentation.Controllers.ReservaController.PutReserva(Domain.Models.Reserva)">
+            <summary>
+            Edita una reserva leyendo todos los campos del Body
+            </summary>
+            <param name="reserva">Body de la reserva</param>
+            <returns>Edita una reserva</returns>
+        </member>
+        <member name="M:Presentation.Controllers.ReservaController.DeleteReserva(System.Int32)">
+            <summary>
+            Elimina una reserva mediante su ID
+            </summary>
+            <param name="id">Identificador de la reserva</param>
+            <returns>Elimina una reserva</returns>
+        </member>
+        <member name="M:Presentation.Controllers.ReservaController.CancelReserva(System.Int32)">
+            <summary>
+            Cancela una reserva mediante su ID
+            </summary>
+            <param name="id">Identificador de la reserva</param>
+            <returns>Cancela una reserva</returns>
+        </member>
+        <member name="M:Presentation.Controllers.ReservaController.GetAllReservasActivasByUsuario(System.Int32)">
+            <summary>
+            Muestra las reservas activas mediante el ID de un usuario
+            </summary>
+            <param name="id_usuario">Identificador del usuario</param>
+            <returns>Reservas activas de un usuario</returns>
+        </member>
+        <member name="M:Presentation.Controllers.ReservaController.GetAllReservasByHotelAndEmail(System.Int32,System.String)">
+            <summary>
+            Muestra las reservas de un hotel mediante su ID y el email de un usuario
+            </summary>
+            <param name="id_hotel">Identificador del hotel</param>
+            <param name="mail">Email del usuario</param>
+            <returns>Reservas de un hotel por email de usuario</returns>
+        </member>
+        <member name="M:Presentation.Controllers.UsuarioController.GetAllUsuarios">
+            <summary>
+            Muestra todos los usuarios
+            </summary>
+            <returns>Devuelve todos los usuarios</returns>
+        </member>
+        <member name="M:Presentation.Controllers.UsuarioController.GetUsuario(System.Int32)">
+            <summary>
+            Muestra un usuario mediante su ID
+            </summary>
+            <param name="id">Identificador del usuario</param>
+            <returns>Devuelve un usuario</returns>
+            <response code="404">No se ha encontrado el usuario</response>
+        </member>
+        <member name="M:Presentation.Controllers.UsuarioController.PostUsuario(Domain.Models.Usuario)">
+            <summary>
+            Anyade un usuario leyendo todos los campos del Body
+            </summary>
+            <param name="usuario">Body del usuario</param>
+            <returns>Devuelve un usuario</returns>
+        </member>
+        <member name="M:Presentation.Controllers.UsuarioController.PutUsuario(Domain.Models.Usuario)">
+            <summary>
+            Actualiza un usuario leyendo todos los campos del Body
+            </summary>
+            <param name="usuario">Body del usuario</param>
+            <returns>Actualiza un usuario</returns>
+        </member>
+        <member name="M:Presentation.Controllers.UsuarioController.DeleteUsuario(System.Int32)">
+            <summary>
+            Elimina un usuario mediante su ID
+            </summary>
+            <param name="id">Identificador del usuario</param>
+            <returns>Elimina un usuario</returns>
+        </member>
+    </members>
+</doc>
