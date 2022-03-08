@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Colart\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Colart\\.nuget\\packages"
+    ]
+  }
+}

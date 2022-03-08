@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "imsN/zJJfUBPjaXRnvQBnnhVxkagA7BJ2JrNP8KV6WilwFXdKXJSmcyWkx10zvt8azCqL22qC7eLB5OpqjVHIg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Colart\\Repos\\ReservaHoteles-WebApi\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Colart\\.nuget\\packages\\serilog\\2.10.0\\serilog.2.10.0.nupkg.sha512",
+    "C:\\Users\\Colart\\.nuget\\packages\\serilog.sinks.console\\4.0.0\\serilog.sinks.console.4.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
