@@ -14,7 +14,8 @@
       "launchBrowser": true,
       "launchUrl": "swagger",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "SONAR_TOKEN": "8ab6d28acb5e8cd23793dcf9e2e5c5b82ebf98ae"
       }
     },
     "Presentation": {
